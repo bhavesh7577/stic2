@@ -5,6 +5,7 @@
     --stic-saffron-links: #405580;
     --white: #ffffff;
 }
+
 .navbar,
 .footer,
 .dropdown-menu {
@@ -19,30 +20,16 @@
     .hero-portrait {
         display: none;
     }
-
-    .hero-landscape {
-        display: block;
-        width: 100%;
-    }
 }
 
 @media all and (max-width: 991px) {
-/*     .dropdown-submenu {
-        margin-top: -41px;
-    } */
-
-    .hero-portrait {
-        display: block;
-        width: 100%;
-    }
-
     .hero-landscape {
         display: none;
     }
 }
 
-.hero-portrait div{
-    --bs-gutter-x:0;
+.hero-portrait div {
+    --bs-gutter-x: 0;
 }
 
 /*---------------------------------------------------------------------- Common End ----------------------------------------------------------------------*/
@@ -89,6 +76,14 @@
 
 /* ul.dropdown-submenu{
     background-color: var(--stic-saffron);
+} */
+
+/* .dropdown-menu {
+    display: none;
+}
+
+.dropdown-menu.active {
+    display: block;
 } */
 
 .dropdown-item:active {
